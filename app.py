@@ -100,12 +100,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 # Streamlit app setup
-st.title("Mental Health Diagnosis and Treatment Analysis")
-st.write("This app provides insights into the mental health diagnosis dataset.")
+st.title("Brain Tumor Analysis using CNN")
+
 with st.sidebar:
     menu = option_menu('Mental Health Diagnosis and Treatment Analysis',
-                              ['Overview','Statistics',
-                               'Visualizations','Tumor detection','📅 Book an Appointment'],
+                              ['Tumor detection','📅 Book an Appointment'],
                               icons=['dashboard','activity','heart','person','line-chart'],
                               default_index=0)
 
